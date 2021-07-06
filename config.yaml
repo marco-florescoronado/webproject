@@ -1,0 +1,93 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Marco Flores-Coronado
+theme: personal-web
+copyright: © Marco Flores-Coronado
+googleAnalytics: ''
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+params:
+  accentColor: '#FD3519'
+  assets:
+    customCSS: ''
+    favicon: ''
+  breadcrumb: yes
+  contact:
+    email: 'marcoantonio7877@gmail.com'
+    text: ''
+  intro:
+    main: 'Marco A. Flores-Coronado'
+    sub: Language Acquisition, Cognitive Modelling, Developmental Disorders , Language Perception, Embodied Cognition
+  main:
+    latestPublishHeader: My Latest Project
+  mainSections: portfolio 
+  notFound:
+    gopher: /images/gopher.jpg
+    h1: Bummer!
+    p: It seems that this page doesn't exist.
+  sections:
+    portfolio: project
+    post: article
+  sidebar:
+    backgroundImage: '/images/background.png'
+    gradientOverlay: ''
+    logo: '/images/MarcoFlores-Coronado.jpeg'
+  social:
+    #codepen: https://codepen.io/
+    #facebook: https://www.facebook.com/
+    github: https://github.com/marco7877
+    #gitlab: https://gitlab.com/
+    #instagram: https://www.instagram.com/
+    #keybase: https://keybase.io/
+    #linkedin: https://www.linkedin.com/in/
+    #medium: https://medium.com/
+    twitter: https://twitter.com/marcoflorescoro
+    youtube: https://www.youtube.com/channel/UCyJn8ovM815xS0nTls6zU1g
+taxonomies:
+  design: designs
+  tech: techs
+blackfriday:
+  hrefTargetBlank: yes
+menu:
+  main:
+    - identifier: about
+      name: About
+      title: About section
+      url: /about/
+      weight: -120
+    - identifier: cv
+      name: CV
+      title: Curriculum Vitae
+      url: /cv/
+      weight: -110
+    - identifier: research
+      name: Research
+      title: Research
+      url: /portfolio/
+      weight: -100
+    - identifier: blog
+      name: Open Resources
+      title: Open Resources
+      url: /post/
+      weight: -90
+    - identifier: publications
+      name: Publications
+      title: Publications section
+      url: /publications/
+      weight: -80
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+    useSessionStorage: no
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
