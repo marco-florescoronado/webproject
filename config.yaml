@@ -20,7 +20,7 @@ params:
     text: ''
   intro:
     main: 'Marco A. Flores-Coronado'
-    sub: Coputer Science, Cognitive Modelling, Language Acquisition, Developmental Disorders, Language Perception, Embodied Cognition
+    sub: Computer Science, Cognitive Modelling, Language Acquisition, Developmental Disorders, Language Perception, Embodied Cognition
   main:
     latestPublishHeader: My Latest Project
   mainSections: portfolio 
